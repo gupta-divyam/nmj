@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <title>MY Book</title>
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="
+s"></script>
+    </head>
+    <style>
+        body{
+            background-color: rgba(21, 224, 3, 0.808);
+        }
+        #logout
+{
+	font-size: 20px; float: right;
+}
+#maind{
+    background-color: rgba(245, 245, 245, 0.87);
+    height: 500px;
+    width: auto;
+}
+#chat{
+    background-color: rgba(245, 245, 245, 0.87);
+    height: 39px;
+    width: auto;
+}
+.display{
+    display: inline;
+}
+.do{
+    font-size: 40px;
+    display: inline;
+}
+    </style>
+ <audio id="aaaap" autoplay="true" src="Mind Fresh Music 🎧 Use headphones - ft Kailash Kavhale.mp3"></audio>
+ <body onload="onopen()">
+        <div class="container">
+            <button onclick="logout()" id="logout" class="glyphicon glyphicon-log-out btn btn-danger">Logout</button>
+            <center>
+                <h1 class="header">	
+                    My Book
+                </h1>
+                <center><h2 ><b id="namegame"></b></h2></center>
+                <div  id="output" style="text-align: left;margin-bottom: 70px;">
+                    
+                    <select name="class" id="class">
+                        <option>Select</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                      </select>
+                      <select id="gender">
+                        <option>Select</option>
+                        <option>Female</option>
+                        <option>Male</option>
+                        <option>Other</option>  
+                      </select>
+                      <select>
+                        <option id="book">Select</option>
+                        <option value="ncert">Ncert</option>
+                      </select>
+                      <button class="btn btn-primary" onclick="don()">Done</button>
+                </div>
+                <div id="maind" >
+                                       
+                </div>
+
+                <br>
+                <hr>
+                <br>
+                <div id="chat">
+<h1><b style="float: left;"> <a href="chat.html">Ask Your Dout ,Click Here Ask Your Dout ,Click Here </a></b></h1>
+
+                </div>
+                <br><br>
+            </center>
+        </div>
+    </body>
+</html>
